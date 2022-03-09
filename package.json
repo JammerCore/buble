@@ -1,6 +1,6 @@
 {
-  "name": "buble",
-  "version": "0.20.0",
+  "name": "@jammercore/buble",
+  "version": "0.20.1",
   "description": "The blazing fast, batteries-included ES2015 compiler",
   "main": "dist/buble.cjs.js",
   "module": "dist/buble.es.js",
@@ -34,7 +34,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bublejs/buble.git"
+    "url": "git+https://github.com/jammercore/buble.git"
+  },
+  "publishConfig": {
+    "access":"public"
   },
   "keywords": [
     "javascript",
